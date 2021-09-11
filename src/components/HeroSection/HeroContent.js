@@ -139,7 +139,12 @@ function HeroContent() {
                   {' / '}
                   {item.date}{' '}
                 </Text>
-                <Text className='underlineText' ml='2' color='gray.600'>
+                <Text
+                  className='underlineText'
+                  ml='2'
+                  my='2'
+                  color='gray.600'
+                  fontSize='1.3em'>
                   {' ' + item.title + ', '}
                 </Text>
                 <Heading

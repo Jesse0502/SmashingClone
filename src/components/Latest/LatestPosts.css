@@ -1,0 +1,24 @@
+.latestPostText {
+  letter-spacing: 3px;
+  transform: rotateZ(-90deg);
+  left: -100px;
+  top: 70px;
+  position: absolute;
+}
+
+.imageRotate {
+  translate: (3, 5);
+  transform: rotateZ(-10deg);
+  transform-origin: bottom left;
+  transition-duration: 0.2s;
+  /* box-shadow: 1px 8px 6px rgb(59, 59, 59); */
+  box-shadow: 10px 12px 12px #00000067;
+}
+
+.imageRotate:hover {
+  transition: ease-out;
+  transition-duration: 0.2s;
+  transform: rotateZ(0deg);
+  /* box-shadow: none; */
+  box-shadow: 5px 5px 1px #00000067;
+}
