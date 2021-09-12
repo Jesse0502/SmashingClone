@@ -16,7 +16,7 @@ import Img4 from '../../images/post-img-4.jpg';
 import Img5 from '../../images/post-img-5.jpg';
 import Img6 from '../../images/post-img-6.jpg';
 
-function PostContent() {
+function PersonCards() {
   const cardContent = [
     {
       img: Img1,
@@ -114,4 +114,4 @@ function PostContent() {
   );
 }
 
-export default PostContent;
+export default PersonCards;

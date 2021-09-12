@@ -22,7 +22,7 @@ function HeroContent() {
                 borderRadius='3xl'
                 objectFit='fill'
                 ml={{ base: '5', lg: 'none' }}
-                src={HeroImg1}
+                src={HeroImg2}
               />
             </Box>
           </Box>
@@ -104,14 +104,14 @@ function HeroContent() {
               title: ' Next.js, React, JavaScript ',
               heading:
                 'Using SWR React Hooks With Next.js’ Incremental Static Regeneration (ISR)',
-              img: HeroImg2,
+              img: HeroImg3,
             },
             {
               name: 'Michelle Barker',
               date: 'Sep 8, 2021 in ',
               title: 'CSS, Design, Content',
               heading: 'Developer Decisions For Building Flexible Components',
-              img: HeroImg3,
+              img: HeroImg1,
             },
           ].map((item) => (
             <Flex alignItems='center' my='20'>
