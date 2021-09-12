@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/%7BGithub-repo-name%7D/static/css/main.be5c6e9d.chunk.css",
+    "main.js": "/%7BGithub-repo-name%7D/static/js/main.5dc7e56d.chunk.js",
+    "main.js.map": "/%7BGithub-repo-name%7D/static/js/main.5dc7e56d.chunk.js.map",
+    "runtime-main.js": "/%7BGithub-repo-name%7D/static/js/runtime-main.9e4cbde3.js",
+    "runtime-main.js.map": "/%7BGithub-repo-name%7D/static/js/runtime-main.9e4cbde3.js.map",
+    "static/js/2.7e88393b.chunk.js": "/%7BGithub-repo-name%7D/static/js/2.7e88393b.chunk.js",
+    "static/js/2.7e88393b.chunk.js.map": "/%7BGithub-repo-name%7D/static/js/2.7e88393b.chunk.js.map",
+    "index.html": "/%7BGithub-repo-name%7D/index.html",
+    "static/css/main.be5c6e9d.chunk.css.map": "/%7BGithub-repo-name%7D/static/css/main.be5c6e9d.chunk.css.map",
+    "static/js/2.7e88393b.chunk.js.LICENSE.txt": "/%7BGithub-repo-name%7D/static/js/2.7e88393b.chunk.js.LICENSE.txt",
+    "static/media/cat-in-the-chair.5c83a889.png": "/%7BGithub-repo-name%7D/static/media/cat-in-the-chair.5c83a889.png",
+    "static/media/hero-img-1.085c2250.jpg": "/%7BGithub-repo-name%7D/static/media/hero-img-1.085c2250.jpg",
+    "static/media/hero-img-2.b7b6d679.jpg": "/%7BGithub-repo-name%7D/static/media/hero-img-2.b7b6d679.jpg",
+    "static/media/hero-img-3.2384a0cf.jpg": "/%7BGithub-repo-name%7D/static/media/hero-img-3.2384a0cf.jpg",
+    "static/media/online-workshops-summer.bdd22a29.png": "/%7BGithub-repo-name%7D/static/media/online-workshops-summer.bdd22a29.png",
+    "static/media/post-img-1.4c01ce8a.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-1.4c01ce8a.jpg",
+    "static/media/post-img-2.7befaba1.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-2.7befaba1.jpg",
+    "static/media/post-img-3.026c4dd5.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-3.026c4dd5.jpg",
+    "static/media/post-img-4.919b3607.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-4.919b3607.jpg",
+    "static/media/post-img-5.ecead4bd.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-5.ecead4bd.jpg",
+    "static/media/post-img-6.5f8a323b.jpg": "/%7BGithub-repo-name%7D/static/media/post-img-6.5f8a323b.jpg",
+    "static/media/sliding-img-1.5e6590de.png": "/%7BGithub-repo-name%7D/static/media/sliding-img-1.5e6590de.png",
+    "static/media/sliding-img-2.b05efb7e.png": "/%7BGithub-repo-name%7D/static/media/sliding-img-2.b05efb7e.png",
+    "static/media/sliding-img-3.99ae420a.png": "/%7BGithub-repo-name%7D/static/media/sliding-img-3.99ae420a.png",
+    "static/media/sliding-img-4.cd28431f.png": "/%7BGithub-repo-name%7D/static/media/sliding-img-4.cd28431f.png",
+    "static/media/sliding-img-5.7c2d756f.png": "/%7BGithub-repo-name%7D/static/media/sliding-img-5.7c2d756f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e4cbde3.js",
+    "static/js/2.7e88393b.chunk.js",
+    "static/css/main.be5c6e9d.chunk.css",
+    "static/js/main.5dc7e56d.chunk.js"
+  ]
+}
