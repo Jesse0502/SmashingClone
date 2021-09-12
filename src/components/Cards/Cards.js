@@ -6,7 +6,7 @@ function Cards() {
   return (
     <>
       <Container
-        overflow='hidden'
+        // overflow='hidden'
         //   px='40'
         mt={{ base: '20', lg: '0' }}
         display='relative'

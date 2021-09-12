@@ -61,7 +61,7 @@ function CardComponent() {
   return (
     <Container
       display='grid'
-      gridGap='20'
+      gridGap={{ lg: '20', base: '10' }}
       gridTemplateColumns='repeat(5, 1fr)'
       overflow={{ lg: 'hidden', base: 'auto' }}
       maxW='90%'

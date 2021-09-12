@@ -17,7 +17,7 @@ function Boost() {
       <Text
         textAlign='center'
         textShadow='2xl'
-        fontSize={{ lg: '24', base: '22' }}
+        fontSize={{ lg: '24', base: '20' }}
         fontFamily='serif'
         mt='20'>
         September–December 2021 • New Workshops

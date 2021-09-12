@@ -68,7 +68,7 @@ function Footer() {
           'Workflow',
         ].map((item) => (
           <ListItem
-            fontSize={{ lg: '1.4em', base: '1em' }}
+            fontSize={{ lg: '1.4em', base: '1.2em' }}
             color='white'
             className='listDot'
             cursor='pointer'
