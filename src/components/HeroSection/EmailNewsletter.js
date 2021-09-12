@@ -6,14 +6,14 @@ import { Button, ButtonGroup, Flex, Container } from '@chakra-ui/react';
 import CatImage from '../../images/cat-in-the-chair.png';
 function EmailNewsletter() {
   return (
-    <Container justifySelf='flex-end' maxW='90%'>
+    <Container justifySelf='flex-end' maxW={{ lg: '90%', base: '100%' }}>
       <Box pos='relative'>
         <Image
-          w='60'
+          w={{ lg: '60', base: '44' }}
           zIndex='999'
           pos='absolute'
-          ml='20'
-          mt='14'
+          ml={{ lg: '20', base: '16' }}
+          mt={{ lg: '14', base: '1' }}
           src={CatImage}
         />
       </Box>
@@ -22,12 +22,12 @@ function EmailNewsletter() {
         centerContent
         justifyContent='center'
         bg='#E7F8FF'
-        mt='40'
-        py='5'
+        mt={{ lg: '40', base: '20' }}
+        py={{ lg: '5', base: '3' }}
         h='max'>
         <Button
           color='brand.main'
-          mt='32'
+          mt={{ lg: '32', base: '24' }}
           p='28px'
           shadow='md'
           bg='white'

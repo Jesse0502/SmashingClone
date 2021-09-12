@@ -50,18 +50,22 @@ function PostContent() {
   return (
     <>
       {cardContent.map((item) => (
-        <Flex>
+        <Flex
+          flexDir={{ base: 'column', lg: 'row' }}
+          alignItems={{ base: 'center', lg: 'left' }}
+          textAlign={{ base: 'center', lg: 'left' }}>
           <Box>
             <Image
-              w='80'
+              w={{ lg: '80', base: '40' }}
               className='imageRotate'
               border='5px solid black'
               borderRadius='2xl'
+              my={{ base: '5', lg: '0' }}
               borderColor='brand.main'
               src={item.img}
             />
           </Box>
-          <Box pl='7'>
+          <Box pl={{ lg: '7', base: '0' }}>
             <Text
               display='inline-block'
               color='brand.main'
@@ -93,7 +97,7 @@ function PostContent() {
               fontSize='1.3em'
               lineHeight='35px'
               mt='5'
-              color='gray.700'
+              color='gray.900'
               fontFamily='serif'>
               {item.body}
             </Text>

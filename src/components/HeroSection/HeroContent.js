@@ -114,16 +114,22 @@ function HeroContent() {
               img: HeroImg1,
             },
           ].map((item) => (
-            <Flex alignItems='center' my='20'>
+            <Flex
+              alignItems={{ lg: 'center', base: 'center' }}
+              flexDir={{ base: 'column', lg: 'row' }}
+              // justifyContent='left'
+              textAlign={{ base: 'center', lg: 'left' }}
+              my='20'>
               <Image
                 src={item.img}
-                w='32'
+                w={{ lg: '32', base: '28' }}
                 className='imageRotate'
                 border='5px solid black'
                 borderRadius='xl'
+                mb={{ base: '5', lg: '0' }}
                 borderColor='brand.main'
               />
-              <Box ml='7'>
+              <Box ml={{ lg: '7', base: '1' }}>
                 <Text
                   color='brand.main'
                   display='inline-block'
@@ -149,7 +155,7 @@ function HeroContent() {
                 </Text>
                 <Heading
                   py='1'
-                  fontSize='2.2em'
+                  fontSize={{ lg: '2.2em', base: '1.6em' }}
                   fontFamily='sans-serif'
                   color='gray.700'>
                   {item.heading}

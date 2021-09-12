@@ -14,7 +14,7 @@ import { MinusIcon } from '@chakra-ui/icons';
 
 function LatestPosts() {
   return (
-    <Container maxW='90%' pos='relative' pt='20'>
+    <Container maxW={{ lg: '90%', base: '100%' }} pos='relative' pt='20'>
       <Text
         className='latestPostText'
         display='flex'
@@ -25,15 +25,21 @@ function LatestPosts() {
         <Box
           border='0.1em solid black'
           borderColor='gray.800'
+          display={{ base: 'none', lg: 'block' }}
           w='24'
           ml='2'></Box>
       </Text>
-      <Box px='14' display='grid' gridTemplateColumns='1fr 1fr' gridGap='20'>
+      <Box
+        px={{ lg: '14', base: '3' }}
+        display='grid'
+        gridTemplateColumns={{ lg: '1fr 1fr', base: '1fr' }}
+        // justifyContent='center'
+        gridGap={{ lg: '20', base: '16' }}>
         <PostContent />
       </Box>
       <Text
         textAlign='center'
-        w='20%'
+        w={{ lg: '20%', base: 'max' }}
         m='auto'
         borderBottom='5px solid black'
         my='10'

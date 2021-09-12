@@ -6,14 +6,14 @@ function Cards() {
   return (
     <>
       <Container
-        // centerContent
+        overflow='hidden'
         //   px='40'
+        mt={{ base: '20', lg: '0' }}
         display='relative'
-        maxW='80%'
+        maxW={{ lg: '80%', base: '100%' }}
         display='grid'
-        gridAutoFlow='column'
-        gridAutoFlow={{ lg: 'row', base: 'column' }}
-        gridTemplateColumns='1fr 1fr 1fr'
+        flexDir={{ base: 'row', lg: 'row' }}
+        gridTemplateColumns={{ lg: '1fr 1fr 1fr', base: '1fr' }}
         mb='10'
         gridGap='10'>
         {[
@@ -46,13 +46,17 @@ function Cards() {
             bgColor={card.secondary}
             rounded='xl'
             p='10'
-            w='400px'
+            w={{ lg: '400px', base: '380px' }}
             shadow='2xl'
             flexWrap='wrap'>
             <Heading color={card.primary} textDecoration='underline'>
               {card.title}
             </Heading>
-            <Text py='8' fontSize='1.2em' color='gray.800' lineHeight='35px'>
+            <Text
+              py='8'
+              fontSize={{ lg: '1.2em', base: '1.3em' }}
+              color='gray.800'
+              lineHeight='35px'>
               {card.subTitle}
             </Text>
             <Button
@@ -72,7 +76,7 @@ function Cards() {
       </Container>
       <Flex
         justify='center'
-        w='12%'
+        w={{ lg: '12%', base: 'max' }}
         m='auto'
         mb='20'
         cursor='pointer'
@@ -83,7 +87,7 @@ function Cards() {
           alignItems='center'
           _hover={{ color: 'brand.main' }}
           color='gray.700'
-          fontFamily='fantasy'
+          fontFamily='sans-serif'
           display='flex'
           alignItems='center'>
           See All Guides{' '}
