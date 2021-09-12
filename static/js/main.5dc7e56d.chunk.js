@@ -220,10 +220,9 @@
           });
         },
         y = i(114),
-        // O = i.p + './static/media/hero-img-2.b7b6d679.jpg',
-        O = i.p + '../build/static/media/hero-img-2.b7b6d679.jpg',
-        w = i.p + '../build/static/media/hero-img-1.085c2250.jpg',
-        v = i.p + '../build/static/media/hero-img-3.2384a0cf.jpg';
+        O = i.p + '../media/hero-img-2.b7b6d679.jpg',
+        w = i.p + '../media/hero-img-1.085c2250.jpg',
+        v = i.p + '../media/hero-img-3.2384a0cf.jpg';
       i(92);
       var S = function () {
           return Object(g.jsx)('div', {
@@ -412,7 +411,7 @@
         },
         F = i(115),
         T = i(121),
-        A = i.p + '../build/static/media/cat-in-the-chair.5c83a889.png';
+        A = i.p + '../media/cat-in-the-chair.5c83a889.png';
       var k = function () {
         return Object(g.jsxs)(F.a, {
           justifySelf: 'flex-end',
@@ -669,10 +668,10 @@
             ],
           });
         },
-        D = i.p + '../build/static/media/post-img-1.4c01ce8a.jpg',
-        z = i.p + '../build/static/media/post-img-2.7befaba1.jpg',
-        C = i.p + '../build/static/media/post-img-3.026c4dd5.jpg',
-        M = (i.p, i.p, i.p + '../build/static/media/post-img-6.5f8a323b.jpg');
+        D = i.p + '../media/post-img-1.4c01ce8a.jpg',
+        z = i.p + '../media/post-img-2.7befaba1.jpg',
+        C = i.p + '../media/post-img-3.026c4dd5.jpg',
+        M = (i.p, i.p, i.p + '../media/post-img-6.5f8a323b.jpg');
       var R = function () {
         var e = [
           {
@@ -850,11 +849,11 @@
             ],
           });
         },
-        I = i.p + '../build/static/media/sliding-img-1.5e6590de.png',
-        q = i.p + '../build/static/media/sliding-img-2.b05efb7e.png',
-        X = i.p + '../build/static/media/sliding-img-3.99ae420a.png',
-        P = i.p + '../build/static/media/sliding-img-4.cd28431f.png',
-        N = i.p + '../build/static/media/sliding-img-5.7c2d756f.png';
+        I = i.p + '../media/sliding-img-1.5e6590de.png',
+        q = i.p + '../media/sliding-img-2.b05efb7e.png',
+        X = i.p + '../media/sliding-img-3.99ae420a.png',
+        P = i.p + '../media/sliding-img-4.cd28431f.png',
+        N = i.p + '../media/sliding-img-5.7c2d756f.png';
       i(94);
       var H = function () {
           Object(n.useRef)();
@@ -1014,7 +1013,7 @@
             ],
           });
         },
-        B = i.p + 'static/media/online-workshops-summer.bdd22a29.png';
+        B = i.p + '../media/online-workshops-summer.bdd22a29.png';
       var Y = function () {
         return Object(g.jsxs)(m.a, {
           bg: '#1B71BB',
