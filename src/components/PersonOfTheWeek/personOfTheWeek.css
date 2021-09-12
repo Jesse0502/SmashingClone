@@ -22,3 +22,13 @@
   top: 20px;
   position: absolute;
 }
+
+@media all and (max-width: 500px) {
+  .PersonOfTheWeekText {
+    letter-spacing: 1px;
+    transform: rotateZ(0deg);
+    left: 10px;
+    top: -100px;
+    position: absolute;
+  }
+}

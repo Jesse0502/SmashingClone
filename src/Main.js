@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 function Main() {
   return (
-    <>
+    <div style={{ overflowX: 'hidden' }}>
       <Navbar />
       <Hero />
       <Cards />
@@ -20,7 +20,7 @@ function Main() {
       <Boost />
       <PersonOfTheWeek />
       <Footer />
-    </>
+    </div>
   );
 }
 

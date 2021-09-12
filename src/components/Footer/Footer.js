@@ -18,18 +18,19 @@ function Footer() {
       minH='100vh'
       bg='brand.main'
       color='white'
-      textAlign='center'
-      px='32'
+      textAlign={{ lg: 'center' }}
+      px={{ lg: '32', base: '5' }}
       pos='relative'>
       <Heading py='10'>Browse All Smashing Magazine Topics</Heading>
       <UnorderedList
-        display='flex'
+        display={{ lg: 'flex', base: 'grid' }}
+        gridTemplateColumns='1fr 1fr'
         listStyleType='none'
         gridGap='10'
         flexWrap='wrap'
         justifyContent='center'
         mt='10'
-        lineHeight='10px'>
+        lineHeight={{ lg: '10px' }}>
         {[
           'Accessibility',
           'Android',
@@ -67,7 +68,7 @@ function Footer() {
           'Workflow',
         ].map((item) => (
           <ListItem
-            fontSize='1.4em'
+            fontSize={{ lg: '1.4em', base: '1em' }}
             color='white'
             className='listDot'
             cursor='pointer'
@@ -79,28 +80,43 @@ function Footer() {
       <Text
         m='auto'
         textAlign='center'
-        w='40%'
+        w={{ lg: '40%' }}
         fontSize='medium'
         fontStyle='italic'
-        pt='20'>
+        pt={{ lg: '20', base: '16' }}>
         With a commitment to quality content for the design community. Founded
         by Vitaly Friedman and Sven Lennartz. 2006–2021. Smashing is proudly
         running on <span style={{ textDecoration: 'underline' }}> Netlify</span>
         . <br /> Fonts by{' '}
         <span style={{ textDecoration: 'underline' }}> Latinotype </span>.
       </Text>
-      <Flex gridGap='5' pt='7' justifyContent='center' textDecor='underline'>
+      <Flex
+        gridGap={{ lg: '5', base: '2' }}
+        pt='7'
+        justifyContent='center'
+        cursor='pointer'
+        fontSize={{ base: '14', lg: 'lg' }}
+        textAlign={{ base: 'center', lg: 'left' }}
+        textDecor={{ lg: 'underline', base: 'none' }}>
         <Text>✎ Write for us </Text> <Text> Contact us </Text>{' '}
         <Text> About us (Impressum)</Text>{' '}
       </Flex>
-      <Flex gridGap='5' py='5' justify='center' textDecor='underline'>
+      <Flex
+        gridGap={{ lg: '5', base: '0' }}
+        py='5'
+        justify='center'
+        cursor='pointer'
+        textAlign={{ base: 'center', lg: 'left' }}
+        fontSize={{ base: '15px', lg: 'lg' }}
+        textDecor={{ lg: 'underline', base: 'none' }}>
         <Text> Privacy policy </Text> <Text> Membership login </Text>{' '}
         <Text> Delivery times</Text> <Text>Advertise</Text>{' '}
       </Flex>
       <Image
         bottom='10'
-        w='20'
-        pos='absolute'
+        w={{ lg: '20' }}
+        py={{ base: '5' }}
+        pos={{ lg: 'absolute' }}
         src='https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-bird-spring-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-1.png'
       />
     </Box>

@@ -12,25 +12,30 @@ function Boost() {
       minH='100vh'
       display='flex'
       flexDir='column'
-      px='44'
+      px={{ lg: '44', base: '5' }}
       textColor='white'>
       <Text
         textAlign='center'
         textShadow='2xl'
-        fontSize='24'
+        fontSize={{ lg: '24', base: '22' }}
         fontFamily='serif'
         mt='20'>
         September–December 2021 • New Workshops
       </Text>
       <Heading
         textAlign='center'
-        fontSize='6xl'
+        fontSize={{ lg: '6xl', base: '2xl' }}
         textDecor='underline'
         mb='5'
-        mt='20'>
+        mt={{ lg: '20', base: '10' }}>
         Boost Your Skills Online, On Front-End & Design
       </Heading>
-      <Text textAlign='center' m='auto' w='80%' fontSize='1.3em' my='5'>
+      <Text
+        textAlign='center'
+        m='auto'
+        w={{ lg: '80%' }}
+        fontSize='1.3em'
+        my='5'>
         Meet <span style={{ fontWeight: 'bold' }}> Smashing Workshops</span>,
         with practical, actionable insights from experts — live. With
         interactive exercises, slides, video recordings and a friendly Q&A.{' '}
@@ -38,19 +43,19 @@ function Boost() {
       <Button
         textAlign='center'
         color='#1B71BB'
-        fontSize='1.6em'
+        fontSize={{ lg: '1.6em', base: '1em' }}
         m='auto'
         fontFamily='serif'
         display='flex'
         gridGap='1'
         alignItems='center'
-        p='9'
+        p={{ lg: '9', base: '5' }}
         my='10'
         rounded='lg'
         w='min'>
         Explore all speakers and topics <ArrowForwardIcon />
       </Button>
-      <Image src={ImgBoost} w='80%' m='auto' mt='10' />
+      <Image src={ImgBoost} w={{ lg: '70%' }} m='auto' mt={{ lg: '10' }} />
     </Box>
   );
 }

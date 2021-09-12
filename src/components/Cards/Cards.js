@@ -45,9 +45,10 @@ function Cards() {
           <Flex
             bgColor={card.secondary}
             rounded='xl'
-            p='10'
-            w={{ lg: '400px', base: '380px' }}
+            p='6'
+            w={{ lg: '400px', base: '350px' }}
             shadow='2xl'
+            textAlign={{ lg: 'left', base: 'center' }}
             flexWrap='wrap'>
             <Heading color={card.primary} textDecoration='underline'>
               {card.title}

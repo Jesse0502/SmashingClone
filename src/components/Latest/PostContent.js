@@ -52,7 +52,7 @@ function PostContent() {
       {cardContent.map((item) => (
         <Flex
           flexDir={{ base: 'column', lg: 'row' }}
-          alignItems={{ base: 'center', lg: 'left' }}
+          alignItems={{ base: 'center', lg: 'flex-start' }}
           textAlign={{ base: 'center', lg: 'left' }}>
           <Box>
             <Image
@@ -94,7 +94,7 @@ function PostContent() {
               {item.title}
             </Text>
             <Text
-              fontSize='1.3em'
+              fontSize={{ lg: '1.3em', base: '1.2em' }}
               lineHeight='35px'
               mt='5'
               color='gray.900'

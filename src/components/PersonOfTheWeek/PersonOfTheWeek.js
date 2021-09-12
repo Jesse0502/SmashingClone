@@ -8,7 +8,12 @@ import { ArrowForwardIcon } from '@chakra-ui/icons';
 import Img1 from '../../images/post-img-6.jpg';
 function PersonOfTheWeek() {
   return (
-    <Box w='90%' m='auto' pos='relative'>
+    <Box
+      w='90%'
+      m='auto'
+      pos='relative'
+      mt={{ base: '40', lg: '0' }}
+      textAlign={{ base: 'center', lg: 'left' }}>
       <Text
         pos='absolute'
         display='flex'
@@ -21,13 +26,19 @@ function PersonOfTheWeek() {
           border='0.1em solid black'
           borderColor='gray.800'
           w='24'
+          display={{ lg: 'block', base: 'none' }}
           ml='2'></Box>
       </Text>
-      <Flex w='80%' m='auto' alignItems='center'>
+      <Flex
+        w={{ lg: '80%', base: '90%' }}
+        m='auto'
+        alignItems='center'
+        flexDir={{ base: 'column', lg: 'row' }}>
         <Image
           className='imageRotate'
           w='40'
           mx='10'
+          mb={{ base: '5', lg: '0' }}
           h='max'
           borderRadius='20'
           border='8px solid black'
@@ -49,10 +60,11 @@ function PersonOfTheWeek() {
         </Box>
       </Flex>
       <Box
-        px='14'
+        px={{ lg: '14', base: '1' }}
         py='24'
         display='grid'
-        gridTemplateColumns='1fr 1fr'
+        justify='center'
+        gridTemplateColumns={{ lg: '1fr 1fr' }}
         gridGap='20'>
         <PersonCards />
       </Box>
@@ -60,7 +72,7 @@ function PersonOfTheWeek() {
       <Text
         borderBottom='5px solid'
         borderColor='brand.main'
-        w='20%'
+        w={{ lg: '20%', base: 'max' }}
         m='auto'
         display='flex'
         justifyContent='center'

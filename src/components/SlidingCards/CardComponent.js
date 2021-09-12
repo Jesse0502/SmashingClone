@@ -63,19 +63,19 @@ function CardComponent() {
       display='grid'
       gridGap='20'
       gridTemplateColumns='repeat(5, 1fr)'
-      overflow='hidden'
+      overflow={{ lg: 'hidden', base: 'auto' }}
       maxW='90%'
       pos='relative'
       id='cardsComponent'
-      pt='48'
+      pt={{ lg: '48', base: '36' }}
       mb='20'>
       {cardsContent.map((card) => (
         <Box
           pos='relative'
           bg={card.secondary}
           minH='200px'
-          w='450px'
-          p='10'
+          w={{ lg: '450px', base: '400px' }}
+          p={{ lg: '10', base: '4' }}
           pt='32'
           textAlign='center'>
           <Image pos='absolute' w='60' top='-32' left='23%' src={card.img} />

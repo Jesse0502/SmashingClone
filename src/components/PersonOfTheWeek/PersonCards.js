@@ -50,18 +50,20 @@ function PersonCards() {
   return (
     <>
       {cardContent.map((item) => (
-        <Flex>
+        <Flex flexDir={{ lg: 'row', base: 'column' }} alignContent='center'>
           <Box>
             <Image
-              w='80'
+              w={{ lg: '80', base: '40' }}
               className='imageRotate'
               border='5px solid black'
               borderRadius='2xl'
+              ml={{ base: '16', lg: '0' }}
+              mb={{ base: '5', lg: '0' }}
               borderColor='brand.main'
               src={item.img}
             />
           </Box>
-          <Box pl='7'>
+          <Box pl={{ lg: '7' }}>
             <Text
               display='inline-block'
               color='brand.main'
@@ -97,7 +99,11 @@ function PersonCards() {
               fontFamily='serif'>
               {item.body}
             </Text>
-            <Box gridGap='3' display='flex' alignItems='center'>
+            <Box
+              gridGap='3'
+              display='flex'
+              alignItems='center'
+              textAlign={{ base: 'left' }}>
               <Image
                 w='5'
                 h='5'
