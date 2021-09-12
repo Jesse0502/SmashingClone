@@ -221,7 +221,7 @@
         },
         y = i(114),
         // O = i.p + './static/media/hero-img-2.b7b6d679.jpg',
-        O = i.p + '../build/static/media/hero-img-2.b7b6d679.jpg',
+        O = i.p + '../static/media/hero-img-2.b7b6d679.jpg',
         w = i.p + '../build/static/media/hero-img-1.085c2250.jpg',
         v = i.p + '../build/static/media/hero-img-3.2384a0cf.jpg';
       i(92);
